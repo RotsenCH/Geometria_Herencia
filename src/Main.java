@@ -33,10 +33,10 @@ public class Main {
                                     double lado;
                                     System.out.print("Ingrese el lado: ");
                                     lado = sc.nextDouble();
-                                    Cuadrado cuadrado= new Cuadrado(lado);
-                                    System.out.println("----Resultados----");
-                                    //System.out.println("El area del Cudrado es: " + dc.format());
-                                    //System.out.println("El perimetro del Cudrado es: " + dc.format());
+                                    Cuadrado miCuadrado = new Cuadrado(lado);
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El area del Cudrado es: " + dc.format(miCuadrado.getArea()));
+                                    System.out.println("El perimetro del Cudrado es: " + dc.format(miCuadrado.getPerimetro()));
                                 }break;
                                 case 2:{
                                     System.out.println("2. Circulo");
@@ -44,20 +44,21 @@ public class Main {
                                     System.out.print("Ingrese el radio: ");
                                     rad = sc.nextDouble();
                                     Circulo miCirculo = new Circulo(rad);
-                                    System.out.println("----Resultados----");
+                                    System.out.println("\n\t\t----Resultados----");
                                     System.out.println("El area del circulo es: " + dc.format(miCirculo.getArea()));
                                     System.out.println("El perimetro del circulo es: " + dc.format(miCirculo.getPerimetro()));
                                 }break;
                                 case 3:{
                                     System.out.println("3. Decagono");
-                                    double apo,perimetro;
+                                    double apo, lado;
                                     System.out.print("Ingrese el apotema: ");
                                     apo = sc.nextDouble();
-                                    System.out.print("Ingrese el perimetro: ");
-                                    perimetro = sc.nextInt();
-                                    Decagono decagono = new Decagono(apo, perimetro);
-                                    System.out.println("----Resultados----");
-                                    //System.out.println("El area del Decagono es: " + dc.format(decagono.areaDeca (decagono)));
+                                    System.out.print("Ingrese el valor del lado: ");
+                                    lado = sc.nextInt();
+                                    Decagono miDecagono = new Decagono(apo,lado);
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El area del Decagono es: " + dc.format(miDecagono.getArea()));
+                                    System.out.println("El perimetro del Decagono es: " + dc.format(miDecagono.getPerimetro()));
                                 }break;
                                 case 4:{
                                     System.out.println("4. Endeagono");
@@ -66,9 +67,10 @@ public class Main {
                                     lado = sc.nextDouble();
                                     System.out.print("Ingrese el apotema: ");
                                     apo = sc.nextInt();
-                                    Endeagono endecagono = new Endeagono(lado, apo);
-                                    System.out.println("----Resultados----");
-                                    //System.out.println("El area del Endecagono es: " + dc.format(endecagono.areaEnde (endecagono)));
+                                    Endeagono miEndeagono = new Endeagono(lado,apo);
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El area del Endecagono es: " + dc.format(miEndeagono.getArea()));
+                                    System.out.println("El perimetro del Endecagono es: " + dc.format(miEndeagono.getPerimetro()));
                                 }break;
                                 case 5:{
                                     System.out.println("5. Eneagono");
@@ -77,9 +79,10 @@ public class Main {
                                     lado = sc.nextDouble();
                                     System.out.print("Ingrese el apotema: ");
                                     apo = sc.nextInt();
-                                    Eneagono eneagono = new Eneagono(lado, apo);
-                                    System.out.println("----Resultados----");
-                                    //System.out.println("El area del Eneagono es: " + dc.format(eneagono.areaEne (eneagono)));
+                                    Eneagono miEneagono = new Eneagono(lado,apo);
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El area del Eneagono es: " + dc.format(miEneagono.getArea()));
+                                    System.out.println("El perimetro del Eneagono es: " + dc.format(miEneagono.getPerimetro()));
                                 }break;
                                 case 6:{
                                     System.out.println("6. Heptagono");
@@ -89,7 +92,7 @@ public class Main {
                                     System.out.print("Ingrese el apotema: ");
                                     apo = sc.nextInt();
                                     //Heptagono heptagono= new Heptagono(lados,apo);
-                                    System.out.println("----Resultados----");
+                                    System.out.println("\n\t\t----Resultados----");
                                     //System.out.println("El area del Heptagono es: " + dc.format(heptagono.areaHepta (heptagono)));
                                 }break;
                                 case 7:{
@@ -100,7 +103,7 @@ public class Main {
                                     System.out.print("Ingrese el apotema: ");
                                     apo = sc.nextInt();
                                     //Hexagono hexagono= new Hexagono(lado, apo);
-                                    System.out.println("----Resultados----");
+                                    System.out.println("\n\t\t----Resultados----");
                                     //System.out.println("El area del Hexagono es: " + dc.format(hexagono.areaHexa (hexagono)));
                                 }break;
                                 case 8:{
@@ -111,7 +114,7 @@ public class Main {
                                     System.out.print("Ingrese el apotema: ");
                                     apo = sc.nextInt();
                                     //Octogono octogono= new Octogono(lado, apo);
-                                    System.out.println("----Resultados----");
+                                    System.out.println("\n\t\t----Resultados----");
                                     //System.out.println("El area del Octogono es: " + dc.format(octogono.areaOcto(octogono)));
 
                                 }break;
