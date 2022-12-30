@@ -14,5 +14,9 @@ public class Main {
         Cuadrado miCuadrado = new Cuadrado(4);
         System.out.println(miCuadrado.getArea());
         System.out.println(miCuadrado.getPerimetro());
+        Heptagono miHep = new Heptagono(4, 2);
+        System.out.println(miHep.getPerimetro());
+        System.out.println(miHep.getArea());
+
     }
 }
