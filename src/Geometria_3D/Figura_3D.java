@@ -1,7 +1,7 @@
 package Geometria_3D;
 
-public class Figura_3D {
-    private double altura,
+public abstract class Figura_3D {
+    public double altura,
                     radio,
                     apotema,
                     ladoA,
@@ -10,6 +10,14 @@ public class Figura_3D {
                     diagonal,
                     arista;
 
+    protected double volumen,
+                    areaBase,
+                    areaCara,
+                    perimBase,
+                    supLateral,
+                    diagonalBase,
+                    areaTotal,
+                    circunferencia;
     Figura_3D(){
         altura = apotema = ladoB = ladoC = ladoA = diagonal = radio = arista = 0.0;
     }
@@ -77,4 +85,21 @@ public class Figura_3D {
     public void setArista(double arista) {
         this.arista = arista;
     }
+
+
+    protected  abstract void calcular_Volumen();
+
+    protected  abstract void calcular_areaBase();
+
+    protected  abstract void calcular_areaCara();
+
+    protected  abstract void calcular_perimBase();
+
+    protected  abstract void calcular_supLateral();
+
+    protected  abstract void calcular_diagonalBase();
+
+    protected  abstract void calcular_areaTotal();
+
+    protected  abstract void calcular_circunferencia();
 }
