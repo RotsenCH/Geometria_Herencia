@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Cracion de las clases hijas en Geometria_2D: Decagono, Endeagono, Eneagono.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Creando la interfaz en la clase Main.">
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672346868871</updated>
-      <workItem from="1672436846880" duration="3243000" />
+      <workItem from="1672436846880" duration="3746000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion de las clases hijas en Geometria_2D: Decagono, Endeagono, Eneagono.">
       <created>1672439149106</created>
@@ -68,7 +67,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672439149106</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Creando la interfaz en la clase Main.">
+      <created>1672440198909</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672440198909</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,6 +93,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cracion de las clases hijas en Geometria_2D: Decagono, Endeagono, Eneagono." />
-    <option name="LAST_COMMIT_MESSAGE" value="Cracion de las clases hijas en Geometria_2D: Decagono, Endeagono, Eneagono." />
+    <MESSAGE value="Creando la interfaz en la clase Main." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando la interfaz en la clase Main." />
   </component>
 </project>

@@ -1,7 +1,7 @@
 package Geometria_2D;
 
 public class Eneagono extends Figura_2D{
-    private double nLado = 9;
+    private int nLado = 9;
     public Eneagono(double lado, double apotema){
         this.lado = lado;
         this.base = apotema;

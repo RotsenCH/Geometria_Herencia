@@ -1,7 +1,7 @@
 package Geometria_2D;
 
 public class Decagono extends Figura_2D{
-
+    private int nLado = 10;
     public Decagono (double apotema, double lado){
         this.lado = lado;
         this.base = apotema;
@@ -11,11 +11,11 @@ public class Decagono extends Figura_2D{
 
     @Override
     protected void calcularPerimetro(){
-        perimetro = lado * 10;
+        perimetro = lado * nLado;
     }
 
     @Override
     protected void calcularArea() {
-        area = (((lado * 10) * base )/2);
+        area = (((lado * nLado) * base )/2);
     }
 }
