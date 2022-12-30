@@ -109,7 +109,7 @@ public class Main {
                                     System.out.println("El perimetro del Hexagono es: " + dc.format(miHexagono.getPerimetro()));
                                 }break;
                                 case 8:{
-                                    System.out.println("8. Octogono");
+                                    System.out.println("8. Octogono ");
                                     double apo,lado;
                                     System.out.print("Ingrese el valor del lado: ");
                                     lado = sc.nextDouble();

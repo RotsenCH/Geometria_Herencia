@@ -13,6 +13,7 @@ public class Hexagono extends Figura_2D{
         perimetro = lado * 6;
     }
 
+
     @Override
     protected void calcularArea(){
         area = lado* 6 * altura;

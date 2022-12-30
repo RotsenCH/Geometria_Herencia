@@ -8,6 +8,7 @@ public class Octogono extends Figura_2D{
         calcularPerimetro();
     }
 
+
     @Override
     protected void calcularPerimetro(){
         perimetro = lado * 8;
