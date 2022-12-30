@@ -18,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -57,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672346868871</updated>
-      <workItem from="1672436846880" duration="5673000" />
+      <workItem from="1672436846880" duration="5992000" />
     </task>
     <task id="LOCAL-00001" summary="Cracion de las clases hijas en Geometria_2D: Decagono, Endeagono, Eneagono.">
       <created>1672439149106</created>
@@ -101,7 +102,49 @@
       <option name="project" value="LOCAL" />
       <updated>1672442578880</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672442636525</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672442636525</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672442663945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672442663945</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672442717391</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672442717391</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672442768300</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672442768300</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672442779009</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672442779009</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672442787885</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672442787885</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

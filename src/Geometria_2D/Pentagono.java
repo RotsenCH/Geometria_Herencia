@@ -13,7 +13,6 @@ public class Pentagono extends Figura_2D{
         perimetro = lado * 5;
     }
 
-
     @Override
     protected void calcularArea(){
         area = (lado* 5 * altura)/2;

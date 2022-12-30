@@ -8,7 +8,6 @@ public class Triangulo extends Figura_2D{
         calcularPerimetro();
     }
 
-
     @Override
     protected void calcularPerimetro(){
         perimetro = lado * 3;
