@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Creacion de Clases hexagono, Octagono, Pentagono y Triangulo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Geometria_2D/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria_2D/Triangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Geometria_3D/Figura_3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria_3D/Figura_3D.java" afterDir="false" />
-    </list>
+    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Creacion de Clases hexagono, Octagono, Pentagono y Triangulo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672376567448</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creacion de Clases hexagono, Octagono, Pentagono y Triangulo">
+      <created>1672443556616</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672443556616</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,6 +96,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creacion Clase Padre 2D y Clases Cuadrado y Circulo" />
+    <MESSAGE value="Creacion de Figura_3D y correccion de Triangulo" />
     <MESSAGE value="Creacion de Clases hexagono, Octagono, Pentagono y Triangulo" />
     <option name="LAST_COMMIT_MESSAGE" value="Creacion de Clases hexagono, Octagono, Pentagono y Triangulo" />
   </component>
