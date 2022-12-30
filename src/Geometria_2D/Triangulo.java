@@ -1,20 +1,20 @@
 package Geometria_2D;
 
 public class Triangulo extends Figura_2D{
-    public Triangulo(double lado, double apotema){
-        this.lado = lado;
-        this.altura = apotema;
+    public Triangulo(double base, double altura){
+        this.base = base;
+        this.altura = altura;
         calcularArea();
         calcularPerimetro();
     }
 
     @Override
     protected void calcularPerimetro(){
-        perimetro = lado * 3;
+        perimetro = base * 3;
     }
 
     @Override
     protected void calcularArea(){
-        area = (lado* 3 * altura)/2;
+        area = (base * altura)/2;
     }
 }
