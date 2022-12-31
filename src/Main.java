@@ -165,12 +165,12 @@ public class Main {
                                     alturaCil = sc.nextDouble();
                                     System.out.print("Ingrese el valor del radio: ");
                                     radioCil = sc.nextDouble();
-                                    //Cilindro cilindro = new Cilindro(alturaCil,radioCil);
+                                    Cilindro miCilindro = new Cilindro(alturaCil,radioCil);
 
-                                    System.out.println("\tResultados: ");
-                                   // System.out.println("Volumen: " + dc.format(cilindro.volumen(cilindro)));
-                                   // System.out.println("Area de la Base: " + dc.format(cilindro.areaBase(cilindro)));
-                                   // System.out.println("Superficie Lateral: " + dc.format(cilindro.supLateral(cilindro)));
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen del Cilindro es: " + dc.format(miCilindro.getVolumen()));
+                                    System.out.println("EL Area Base del Cilindro: " + dc.format(miCilindro.getAreaBase()));
+                                    System.out.println("La Superficie Lateral del Cilindro: " + dc.format(miCilindro.getExtra()));
                                 }break;
                                 case 2:{
                                     System.out.println("2. Cono");
@@ -182,12 +182,12 @@ public class Main {
                                     System.out.print("Apotema: ");
                                     apotemaCono = sc.nextDouble();
 
-                                   // Cono cono = new Cono(radioCono, alturaCono, apotemaCono);
+                                    Cono miCono = new Cono(alturaCono, radioCono, apotemaCono);
 
-                                    System.out.println("\tResultados: ");
-                                   // System.out.println("Volumen: " + dc.format(cono.supLateral(cono)));
-                                   // System.out.println("Superficie Lateral" + dc.format(cono.volumen(cono)));
-                                   // System.out.println("Area de la Base" + dc.format(cono.areaBase(cono)));
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen del Cono es: " + dc.format(miCono.getVolumen()));
+                                    System.out.println("EL Area Base del Cono: " + dc.format(miCono.getAreaBase()));
+                                    System.out.println("La Superficie Lateral del Cono: " + dc.format(miCono.getExtra()));
                                 }break;
                                 case 3:{
                                     System.out.println("3. Cubo");

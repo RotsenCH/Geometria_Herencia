@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo." />
+    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/Cilindro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/Cono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Geometria_3D/Figura_3D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Geometria_3D/Figura_3D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672442787885</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo.">
+      <created>1672445031264</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672445031264</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
