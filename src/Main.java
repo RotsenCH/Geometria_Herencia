@@ -161,6 +161,7 @@ public class Main {
                                 case 1:{
                                     System.out.println("1. Cilindro");
                                     double alturaCil, radioCil;
+
                                     System.out.print("Ingrese el valor de la altura: ");
                                     alturaCil = sc.nextDouble();
                                     System.out.print("Ingrese el valor del radio: ");
@@ -175,6 +176,7 @@ public class Main {
                                 case 2:{
                                     System.out.println("2. Cono");
                                     double radioCono, alturaCono, apotemaCono;
+
                                     System.out.print("Radio: ");
                                     radioCono = sc.nextDouble();
                                     System.out.print("Altura: ");
@@ -193,31 +195,31 @@ public class Main {
                                     System.out.println("3. Cubo");
                                     double diagonalCubo, ladoCubo;
 
-                                    System.out.println("Diagonal: ");
+                                    System.out.print("Ingrese la Diagonal de una cara del Cubo: ");
                                     diagonalCubo = sc.nextDouble();
-                                    System.out.println("Lado: ");
+                                    System.out.print("Lado: ");
                                     ladoCubo = sc.nextDouble();
 
-                                   // Cubo cubo = new Cubo(diagonalCubo, ladoCubo);
+                                    Cubo miCubo = new Cubo(diagonalCubo, ladoCubo);
 
-                                    System.out.println("\tResultados: ");
-                                    //System.out.println("Volumen: " + dc.format(cubo.volumen(cubo)));
-                                   // System.out.println("Area de la Base: " + dc.format(cubo.areaBase(cubo)));
-                                   // System.out.println("Diagonal Base" + dc.format(cubo.diagonalBase(cubo)));
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen del  Cubo es: " + dc.format(miCubo.getVolumen()));
+                                    System.out.println("El Area total del Cubo es: " + dc.format(miCubo.getAreaBase()));
+                                    System.out.println("La Diagonal de Cubo es: " + dc.format(miCubo.getExtra()));
                                 }break;
                                 case 4:{
                                     System.out.println("4. Esfera");
                                     double radioEsfera;
 
-                                    System.out.println("Radio: ");
+                                    System.out.print("Ingrese el Radio: ");
                                     radioEsfera = sc.nextDouble();
 
-                                   // Esfera esfera = new Esfera(radioEsfera);
+                                    Esfera miEsfera = new Esfera(radioEsfera);
 
                                     System.out.println("\tResultados: ");
-                                   // System.out.println("Volumen: " + dc.format(esfera.volumen(esfera)));
-                                   // System.out.println("Area Total: " + dc.format(esfera.areaTotal(esfera)));
-                                   // System.out.println("Circunferencia" + dc.format(esfera.circunferencia(esfera)));
+                                    System.out.println("El Volumen de la Esfera es: " + dc.format(miEsfera.getVolumen()));
+                                    System.out.println("El Area Total de la Esfera es: " + dc.format(miEsfera.getAreaBase()));
+                                    System.out.println("La Circunferencia de la Esfera es: " + dc.format(miEsfera.getExtra()));
                                 }break;
                                 case 5:{
                                     System.out.println("5. Ortoedro");
