@@ -2,104 +2,39 @@ package Geometria_3D;
 
 public abstract class Figura_3D {
     public double altura,
-                    radio,
-                    apotema,
-                    ladoA,
-                    ladoB,
-                    ladoC,
-                    diagonal,
-                    arista;
+            radio,
+            apotema,
+            ladoA,
+            ladoB,
+            ladoC,
+            diagonal,
+            arista;
 
     protected double volumen,
-                    areaBase,
-                    areaCara,
-                    perimBase,
-                    supLateral,
-                    diagonalBase,
-                    areaTotal,
-                    circunferencia;
+            areaBase,
+            extra;
+
     Figura_3D(){
         altura = apotema = ladoB = ladoC = ladoA = diagonal = radio = arista = 0.0;
     }
 
-    public double getAltura() {
-        return altura;
+    public double getVolumen() {
+        return volumen;
     }
 
-    public void setAltura(double altura) {
-        this.altura = altura;
+    public double getAreaBase() {
+        return areaBase;
     }
 
-    public double getRadio() {
-        return radio;
+    public double getExtra() {
+        return extra;
     }
 
-    public void setRadio(double radio) {
-        this.radio = radio;
-    }
-
-    public double getApotema() {
-        return apotema;
-    }
-
-    public void setApotema(double apotema) {
-        this.apotema = apotema;
-    }
-
-    public double getLadoA() {
-        return ladoA;
-    }
-
-    public void setLadoA(double ladoA) {
-        this.ladoA = ladoA;
-    }
-
-    public double getLadoB() {
-        return ladoB;
-    }
-
-    public void setLadoB(double ladoB) {
-        this.ladoB = ladoB;
-    }
-
-    public double getLadoC() {
-        return ladoC;
-    }
-
-    public void setLadoC(double ladoC) {
-        this.ladoC = ladoC;
-    }
-
-    public double getDiagonal() {
-        return diagonal;
-    }
-
-    public void setDiagonal(double diagonal) {
-        this.diagonal = diagonal;
-    }
-
-    public double getArista() {
-        return arista;
-    }
-
-    public void setArista(double arista) {
-        this.arista = arista;
-    }
-
-
+    //Creacion de los metodos que seran usados por las clases hijas
     protected  abstract void calcular_Volumen();
 
     protected  abstract void calcular_areaBase();
 
-    protected  abstract void calcular_areaCara();
+    protected  abstract void calcular_Extra();
 
-    protected  abstract void calcular_perimBase();
-
-    protected  abstract void calcular_supLateral();
-
-    protected  abstract void calcular_diagonalBase();
-
-    protected  abstract void calcular_areaTotal();
-
-    protected  abstract void calcular_circunferencia();
 }
