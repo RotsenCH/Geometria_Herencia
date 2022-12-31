@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Creando las clases hijas cilindro, cono y los objetos respectivamente en la clase main y la clase padre Figura_3D.">
-      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/Cubo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/Esfera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_12_2022_19_03__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_30_12_2022_19_03__Changes_.xml" afterDir="false" />
+    <list default="true" id="a85a29d7-8277-4c21-afbe-238cc9acad55" name="Changes" comment="Eliminando un comentario no necesario.">
+      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/Ortoedro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/Piramide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/piramideHexagonal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Geometria_3D/prismaPentagular.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -164,7 +165,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672449831906</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Creando las clases hijas Cubo, Esfera y los objetos respectivamente en la clase main.">
+      <created>1672458864008</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672458864008</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Eliminando un comentario no necesario.">
+      <created>1672458949959</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672458949959</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +202,8 @@
     <MESSAGE value="Creando los objetos para el Eneagono, Endeagono, Decagono y del Caudrado." />
     <MESSAGE value="Creando los objetos para el Heptagono, Hexagono, Octogono, Pentagono, Triangulo." />
     <MESSAGE value="Creando las clases hijas cilindro, cono y los objetos respectivamente en la clase main y la clase padre Figura_3D." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando las clases hijas cilindro, cono y los objetos respectivamente en la clase main y la clase padre Figura_3D." />
+    <MESSAGE value="Creando las clases hijas Cubo, Esfera y los objetos respectivamente en la clase main." />
+    <MESSAGE value="Eliminando un comentario no necesario." />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminando un comentario no necesario." />
   </component>
 </project>

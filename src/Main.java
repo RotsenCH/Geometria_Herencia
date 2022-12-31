@@ -216,7 +216,7 @@ public class Main {
 
                                     Esfera miEsfera = new Esfera(radioEsfera);
 
-                                    System.out.println("\tResultados: ");
+                                    System.out.println("\n\t\t----Resultados----");
                                     System.out.println("El Volumen de la Esfera es: " + dc.format(miEsfera.getVolumen()));
                                     System.out.println("El Area Total de la Esfera es: " + dc.format(miEsfera.getAreaBase()));
                                     System.out.println("La Circunferencia de la Esfera es: " + dc.format(miEsfera.getExtra()));
@@ -225,71 +225,71 @@ public class Main {
                                     System.out.println("5. Ortoedro");
                                     double ortoA, ortoB, ortoC;
 
-                                    System.out.println("Lado A: ");
+                                    System.out.print("Lado A: ");
                                     ortoA = sc.nextDouble();
-                                    System.out.println("Lado B: ");
+                                    System.out.print("Lado B: ");
                                     ortoB = sc.nextDouble();
-                                    System.out.println("Lado C: ");
+                                    System.out.print("Lado C: ");
                                     ortoC = sc.nextDouble();
 
-                                   // Ortoedro ortoedro = new Ortoedro(ortoA,ortoB,ortoC);
+                                    Ortoedro miOrtoedro = new Ortoedro(ortoA,ortoB,ortoC);
 
-                                    System.out.println("\tResultados: ");
-                                   // System.out.println("Volumen: " + dc.format(ortoedro.volumen(ortoedro)));
-                                  //  System.out.println("Area: " + dc.format(ortoedro.area(ortoedro)));
-                                   // System.out.println("Diagonal Interna: " + dc.format(ortoedro.diagonalInterna(ortoedro)));
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen del Ortoedro es: " + dc.format(miOrtoedro.getVolumen()));
+                                    System.out.println("El Area del Ortoedro es: " + dc.format(miOrtoedro.getAreaBase()));
+                                    System.out.println("La Diagonal Interna del Ortoedro es: " + dc.format(miOrtoedro.getExtra()));
                                 }break;
                                 case 6:{
                                     System.out.println("6. Piramide");
                                     double basePiramide, alturaPiramide;
 
-                                    System.out.println("Lado Base: ");
+                                    System.out.print("Lado Base: ");
                                     basePiramide = sc.nextDouble();
-                                    System.out.println("Altura: ");
+                                    System.out.print("Altura: ");
                                     alturaPiramide = sc.nextDouble();
 
-                                   // Piramide piramide = new Piramide(basePiramide, alturaPiramide);
+                                    Piramide miPiramide = new Piramide(basePiramide, alturaPiramide);
 
-                                    System.out.println("\tResultados: ");
-                                   // System.out.println("Area de la Base: " + dc.format(piramide.areaBase(piramide)));
-                                   // System.out.println("Perimetro de la Base: " + dc.format(piramide.perimetroBase(piramide)));
-                                   // System.out.println("Volumen: " + dc.format(piramide.volumenPiramide(piramide)));
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen de la Piramide es: " + dc.format(miPiramide.getVolumen()));
+                                    System.out.println("El Area de la Piramide es: " + dc.format(miPiramide.getAreaBase()));
+                                    System.out.println("El Perimetro de la Piramide es: " + dc.format(miPiramide.getExtra()));
                                 }break;
                                 case 7:{
                                     System.out.println("7. Piramide Hexagonal");
                                     double ladoPiramHexa, alturaPiramHexa, apotemaPiramHexa;
 
-                                    System.out.println("Lado: ");
+                                    System.out.print("Lado: ");
                                     ladoPiramHexa = sc.nextDouble();
-                                    System.out.println("Altura: ");
+                                    System.out.print("Altura: ");
                                     alturaPiramHexa = sc.nextDouble();
-                                    System.out.println("Apotema: ");
+                                    System.out.print("Apotema: ");
                                     apotemaPiramHexa = sc.nextDouble();
 
-                                    //piramideHexagonal piramideHexagonal = new piramideHexagonal(ladoPiramHexa, alturaPiramHexa, apotemaPiramHexa);
+                                    piramideHexagonal miPiramideHexagonal = new piramideHexagonal(ladoPiramHexa, alturaPiramHexa, apotemaPiramHexa);
 
-                                    System.out.println("\tResultados: ");
-                                   /* System.out.println("Volumen: " + dc.format(piramideHexagonal.volumen(piramideHexagonal)));
-                                    System.out.println("Perimetro de la Base: " + dc.format(piramideHexagonal.perimetroBase(piramideHexagonal)));
-                                    System.out.println("Area de la base: " + dc.format(piramideHexagonal.areaBase(piramideHexagonal)));*/
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen de la Piramide Hexagonal es: " + dc.format(miPiramideHexagonal.getVolumen()));
+                                    System.out.println("El Area de la Piramide Hexagonaal es: " + dc.format(miPiramideHexagonal.getAreaBase()));
+                                    System.out.println("El Perimetro de la Piramide Hexagonal es: " + dc.format(miPiramideHexagonal.getExtra()));
                                 }break;
                                 case 8:{
                                     System.out.println("8. Prisma Pentagular");
                                     double apotemaPP, ladoPP, alturaPP;
 
-                                    System.out.println("Apotema: ");
+                                    System.out.print("Apotema: ");
                                     apotemaPP = sc.nextDouble();
-                                    System.out.println("Lado: ");
+                                    System.out.print("Lado: ");
                                     ladoPP = sc.nextDouble();
-                                    System.out.println("Altura: ");
+                                    System.out.print("Altura: ");
                                     alturaPP = sc.nextDouble();
 
-                                   // prismaPentagular prismaPentagular = new prismaPentagular(apotemaPP, ladoPP, alturaPP);
+                                    prismaPentagular miPrismaPentagular = new prismaPentagular(apotemaPP, ladoPP, alturaPP);
 
-                                    System.out.println("\tResultados: ");
-                                    /*System.out.println("Volumen: " + dc.format(prismaPentagular.volumen(prismaPentagular)));
-                                    System.out.println("Area: " + dc.format(prismaPentagular.area(prismaPentagular)));
-                                    System.out.println("Area de la base: " + dc.format(prismaPentagular.areaBase(prismaPentagular)));*/
+                                    System.out.println("\n\t\t----Resultados----");
+                                    System.out.println("El Volumen de la Prisma Pentagular es: " + dc.format(miPrismaPentagular.getVolumen()));
+                                    System.out.println("El Area Base de la Prisma Pentagular es: " + dc.format(miPrismaPentagular.getAreaBase()));
+                                    System.out.println("El Area de la Prisma Pentagular es: " + dc.format(miPrismaPentagular.getExtra()));
                                 }break;
                                 case 9:{
                                     System.out.println("9. Prisma Triangular");
